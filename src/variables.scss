@@ -1,0 +1,30 @@
+// variables.scss
+
+$color-primary: #ffffff;
+$color-secondary: #00AFFF;
+$color-background: #030b0f;
+$color-background-raised: hwb(201 1% 85%);
+$color-text: #ffffff;
+$color-accent: #ffffff;
+$color-accent-glow: $color-accent;
+
+// Typography
+$font-family-base: 'Lato', sans-serif;
+$font-size-base: 16px;
+$font-size-large: 24px;
+$font-size-small: 12px;
+
+// Spacing 3. Look for Opportunities to Refactor
+$spacing-base: 16px;
+$spacing-large: 32px;
+$spacing-small: 8px;
+
+// Breakpoints 3. Look for Opportunities to Refactor
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+
+// that you are using.
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

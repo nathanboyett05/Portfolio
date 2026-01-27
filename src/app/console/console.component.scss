@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+@import 'src/variables.scss';
+
+body {
+    background-color: transparent;
+}
+
+.console-container {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 4em;
+    text-align: left;
+    padding: 10px;
+    margin: 100px;
+    color: $color-accent;
+    padding: 20px;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.console-underscore {
+    display: inline-block;
+    background-color: transparent;
+    opacity: 1;
+    text-shadow: 0 0 25px $color-primary;   
+    animation: blink-animation 1s infinite;
+}
+
+.consoleText {
+    padding: 10px;
+    background-color: transparent;
+    margin: 10px;
+    text-shadow: 0 0 25px $color-accent;
+}
+
+@keyframes blink-animation {
+    50% { opacity: 0; }
+}
+
+// Mobile responsive styles
+@media screen and (max-width: 768px) {
+    .console-container {
+        font-size: 2em;
+        margin: 30px 15px;
+        padding: 10px;
+        overflow: hidden;
+    }
+    
+    .consoleText {
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .console-container {
+        font-size: 1.5em;
+        margin: 20px 10px;
+        padding: 8px;
+    }
+}

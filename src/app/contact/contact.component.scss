@@ -1,0 +1,77 @@
+.contact-section {
+    background-color: rgb(0, 7, 16);
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.contact-content {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 25px;
+    background: linear-gradient(135deg, rgba(30, 144, 255, 0.1), rgba(30, 144, 255, 0.05));
+    border: 1px solid rgba(30, 144, 255, 0.2);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        background: linear-gradient(135deg, rgba(30, 144, 255, 0.15), rgba(30, 144, 255, 0.08));
+        border-color: rgba(30, 144, 255, 0.4);
+        transform: translateX(5px);
+    }
+}
+
+.card-icon {
+    font-size: 28px;
+    flex-shrink: 0;
+}
+
+.card-details {
+    flex: 1;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(30, 144, 255, 0.9);
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-info {
+    font-size: 18px;
+    font-weight: 500;
+    color: whitesmoke;
+    margin: 0;
+}

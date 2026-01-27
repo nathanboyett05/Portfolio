@@ -1,0 +1,57 @@
+.skills-section {
+    background-color: rgb(0, 7, 16);
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.skills-content {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.skill-item {
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(135deg, rgba(30, 144, 255, 0.2), rgba(30, 144, 255, 0.1));
+    border: 1px solid rgba(30, 144, 255, 0.4);
+    border-radius: 25px;
+    padding: 12px 28px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        background: linear-gradient(135deg, rgba(30, 144, 255, 0.4), rgba(30, 144, 255, 0.2));
+        border-color: rgba(30, 144, 255, 0.7);
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(30, 144, 255, 0.2);
+    }
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 500;
+    color: whitesmoke;
+    letter-spacing: 0.5px;
+}

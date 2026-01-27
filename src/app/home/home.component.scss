@@ -1,0 +1,19 @@
+.dark{
+    background-color: rgb(0, 7, 16);
+}
+.centerConsole {
+    position: absolute;
+    background-color: transparent!important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #particles-js {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container full height of the viewport /
+    text-align: center; / Centers text horizontally */
+  }
+
+  
